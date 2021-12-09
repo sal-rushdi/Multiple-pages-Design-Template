@@ -1,0 +1,353 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+/* Navbar */
+.navbar {
+  width: 100%;
+  height: 50px;
+  background: #360836;
+  font-size: 20px;
+}
+
+.navbar ul {
+  list-style: none;
+  text-align: center;
+  line-height: 50px;
+}
+.navbar ul li {
+  display: inline-block;
+}
+
+.navbar ul li a {
+  color: #ee4b2b;
+  text-decoration: none;
+  margin-right: 20px;
+}
+.navbar ul li .active {
+  color: #fff;
+}
+
+.web {
+  width: 100%;
+  height: 600px;
+  background: url(../images/Images/cover.png);
+  background-size: cover;
+  text-align: center;
+  padding: 50px;
+  position: relative;
+}
+
+.web .folk {
+  padding-top: 80px;
+  margin-bottom: 80px;
+}
+
+.web .folk h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.web .folk p {
+  font-size: 25px;
+  letter-spacing: 10px;
+  color: #fff;
+}
+
+.web .dream p {
+  color: #fff;
+  font-size: 25px;
+}
+
+.web .work {
+  position: absolute;
+  color: #fff;
+  bottom: 0;
+  left: 40%;
+  background: #ee4b2b;
+  padding: 15px;
+  width: 250px;
+  font-size: 20px;
+}
+
+/* Image */
+
+.image {
+  width: 100%;
+}
+
+.image .img {
+  float: left;
+  width: 25%;
+  height: 252px;
+  background: url(../images/Images/image_1.jpg);
+}
+
+.image .img .over {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+}
+
+.image .img:hover .over {
+  opacity: 1;
+}
+
+.image .i_1 {
+  background: url(../images/Images/image_2.jpg);
+}
+.image .i_2 {
+  background: url(../images/Images/image_3.jpg);
+}
+.image .i_3 {
+  background: url(../images/Images/image_4.jpg);
+}
+.image .i_4 {
+  background: url(../images/Images/image_5.jpg);
+}
+.image .i_5 {
+  background: url(../images/Images/image_6.jpg);
+}
+.image .i_6 {
+  background: url(../images/Images/image_7.jpg);
+}
+.image .i_7 {
+  background: url(../images/Images/image_8.jpg);
+}
+.image .i_8 {
+  background: url(../images/Images/image_9.jpg);
+}
+.image .i_9 {
+  background: url(../images/Images/image_10.jpg);
+}
+.image .i_10 {
+  background: url(../images/Images/image_11.jpg);
+}
+.image .i_11 {
+  background: url(../images/Images/image_12.jpg);
+}
+
+.clear {
+  clear: both;
+}
+
+/* Meet the folk */
+.meet {
+  width: 100%;
+  height: 800px;
+  position: relative;
+  text-align: center;
+}
+
+.meet .head {
+  position: absolute;
+  top: 0;
+  background: #ff0048;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+  line-height: 50px;
+}
+
+.meet h2 {
+  margin: 0;
+  padding: 8%;
+  color: #ff0048;
+  font-size: 40px;
+}
+
+.meet .meet_image {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.meet .meet_image h3 {
+  color: #ff0048;
+  font-size: 25px;
+  letter-spacing: 5px;
+}
+
+.meet button {
+  width: 150px;
+  background: #000;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  border: 0;
+}
+
+/* end */
+.end {
+  margin-top: 600px;
+  width: 100%;
+  height: 810px;
+  background: url(../images/Images/Cover_2.jpg);
+  text-align: center;
+  padding-top: 7%;
+}
+
+.end .content {
+  width: 400px;
+  color: #fff;
+  display: inline-block;
+  margin-top: 8%;
+  font-size: 25px;
+}
+
+.end .content h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.end button {
+  margin-top: 10%;
+  width: 150px;
+  border: 0;
+  padding: 15px;
+  color: #000;
+  background: #fff;
+  cursor: pointer;
+}
+
+.end .bol {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.end .bol span {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.end .bol span:hover {
+  background: #ff0048;
+}
+
+/* footer */
+.footer {
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  background: #deddde;
+  line-height: 80px;
+  font-size: 25px;
+}
+
+/*********************** Contact.html ****************************/
+.contact {
+  width: 100%;
+  height: 800px;
+  text-align: center;
+  padding-top: 5%;
+  background: url(../images/Images/coverPage2.PNG);
+  background-size: cover;
+}
+.contact h2 {
+  margin: 0;
+  font-style: italic;
+  font-size: 40px;
+}
+
+.contact p {
+  font-size: 25px;
+}
+
+.contact .form {
+  width: 500px;
+  height: 400px;
+  margin: auto;
+}
+
+.contact .form h2 {
+  color: #df1a5a;
+}
+
+.contact .form input[type="text"],
+textarea {
+  display: block;
+  width: 100%;
+  height: 35px;
+  border: 0;
+  margin-bottom: 10px;
+  background: #df1a5a;
+  color: #fff;
+  padding-left: 10px;
+}
+
+textarea {
+  height: 200px;
+}
+
+.contact .form input[type="submit"] {
+  cursor: pointer;
+  width: 100px;
+  height: 35px;
+  border: 0;
+}
+
+/* become */
+
+.become {
+  width: 100%;
+  height: 350px;
+  background: #f5f5f5;
+  text-align: center;
+  padding-top: 2%;
+}
+
+.become h2 {
+  margin: 0;
+  color: #df1a5a;
+  font-size: 35px;
+}
+
+.become p {
+  font-size: 18px;
+}
+
+/******************************* Book Online ***************/
+
+.contact .cover {
+  width: 900px;
+  height: 400px;
+  background: #fff;
+  margin: auto;
+  padding-top: 5%;
+}
+
+.contact .cover .left {
+  width: 45%;
+  float: left;
+  margin-left: 5%;
+}
+
+.contact .cover .left img {
+  width: 100%;
+}
+
+.contact .cover .right {
+  width: 45%;
+  float: right;
+  margin-right: 5%;
+  background: #eee;
+  height: 250px;
+  padding-top: 6%;
+}
+
+.contact .cover .right button {
+  background: #000;
+  color: #fff;
+  border: 0;
+  padding: 10px;
+  cursor: pointer;
+}
